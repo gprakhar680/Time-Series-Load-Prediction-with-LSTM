@@ -1,28 +1,8 @@
 # Time-Series-Load-Prediction-with-LSTM
-Short-term electricity demand forecasting using LSTM with engineered time-series features including lags, rolling stats, and cyclical encoding. Trained on historical load and weather data for accurate one-step predictions. Applications in smart grids, renewable integration, and energy planning
-Features
-Data Preprocessing
+This project implements a short-term electricity demand forecasting model using Long Short-Term Memory (LSTM) neural networks. The model uses engineered time-series features such as lags, rolling statistics, and cyclical encoding to learn temporal patterns from historical electricity demand and weather data.
 
-Date-time parsing & indexing
+Key Features: Time-series feature engineering including lags, rolling mean and standard deviation, and cyclical encoding. Robust scaling for outlier handling. Stacked LSTM layers for capturing long-term dependencies. Dropout regularization for better generalization. Evaluation using RMSE and MSE.
 
-Cyclical encoding for hour, day, and month
+Tech Stack: Python, TensorFlow/Keras, Pandas, NumPy, Matplotlib, scikit-learn.
 
-Lag features & rolling mean/standard deviation
-
-Robust scaling to handle outliers
-
-Model
-
-Stacked LSTM layers for long-term dependencies
-
-Dense layer for feature interaction
-
-Dropout for regularization
-
-Output layer for one-step-ahead predictions
-
-Evaluation
-
-Metrics: RMSE, MSE
-
-Visualization of predictions vs. actual values
+Applications: Smart grid load management, renewable energy integration, and energy trading optimization.
